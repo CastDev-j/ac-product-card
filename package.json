@@ -25,6 +25,7 @@
         "start": "tsdx watch",
         "build": "tsdx build",
         "test": "tsdx test --passWithNoTests",
+        "test:watch": "tsdx test --watch",
         "lint": "tsdx lint",
         "prepare": "tsdx build",
         "size": "size-limit",
@@ -70,6 +71,18 @@
         "typescript": "^3.9.10"
     },
     "dependencies": {
-        "ac-product-card": "file:"
+        "@babel/preset-env": "^7.26.9",
+        "@babel/preset-react": "^7.26.3",
+        "@types/react-test-renderer": "^19.0.0",
+        "ac-product-card": "file:",
+        "babel-jest": "^29.7.0",
+        "jest": "^25.5.4",
+        "react-test-renderer": "^19.0.0"
+    },
+    "jest": {
+        "moduleNameMapper": {
+            "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy",
+            "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+        }
     }
 }
