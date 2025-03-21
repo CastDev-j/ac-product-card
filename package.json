@@ -10,6 +10,17 @@
     "engines": {
         "node": ">=10"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/CastDev-j/ac-product-card"
+    },
+    "homepage": "https://castdev-j.netlify.app/",
+    "keywords": [
+        "react",
+        "component",
+        "test",
+        "cats"
+    ],
     "scripts": {
         "start": "tsdx watch",
         "build": "tsdx build",
