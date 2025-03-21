@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/CastDev-j/ac-product-card"
+        "url": "https://github.com/CastDev-j/ac2003-product-card"
     },
     "homepage": "https://castdev-j.netlify.app/",
     "keywords": [
@@ -45,16 +45,16 @@
         "singleQuote": true,
         "trailingComma": "es5"
     },
-    "name": "ac-product-card",
+    "name": "ac2003-product-card",
     "author": "AndDev",
-    "module": "dist/ac-product-card.esm.js",
+    "module": "dist/ac2003-product-card.esm.js",
     "size-limit": [
         {
-            "path": "dist/ac-product-card.cjs.production.min.js",
+            "path": "dist/ac2003-product-card.cjs.production.min.js",
             "limit": "10 KB"
         },
         {
-            "path": "dist/ac-product-card.esm.js",
+            "path": "dist/ac2003-product-card.esm.js",
             "limit": "10 KB"
         }
     ],
@@ -74,7 +74,7 @@
         "@babel/preset-env": "^7.26.9",
         "@babel/preset-react": "^7.26.3",
         "@types/react-test-renderer": "^19.0.0",
-        "ac-product-card": "file:",
+        "ac2003-product-card": "file:",
         "babel-jest": "^29.7.0",
         "jest": "^25.5.4",
         "react-test-renderer": "^19.0.0"
